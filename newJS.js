@@ -3,26 +3,25 @@ var description = document.getElementById("background-description");
 var title = document.getElementById("background-title");
 var homelist = [
     {
-        back: "/images/bg4.jpg",
+        back: "images/bg4.jpg",
         desc: "Inspiring the next generation of innovators",
         title: "Where learning meets robotics"
     },
 
     {
-        back: "/images/bg2.jpg",
+        back: "images/bg2.jpg",
         desc: "Unlock your child's potential with robotics",
         title: "The Futur of Robotics!"
     }
-
     ,
     {
-        back: "/images/bg3.jpg",
+        back: "images/bg3.jpg",
         desc: "Building confidence and skills through robotics",
         title: "ELLabs"
     }
     ,
     {
-        back: "/images/bg1.jpg",
+        back: "images/bg1.jpg",
         desc: "Unlock your child's potential with robotics",
         title: "The Futur of Robotics!"
     }
