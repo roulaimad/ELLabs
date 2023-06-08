@@ -1,0 +1,298 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="newCSS.css">
+    <link rel="stylesheet" href="Gallery/gallery.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellabs</title>
+    <link rel="icon" href="icons/Logo_on_canvas_2.jpg" type="image/png">
+</head>
+
+<body>
+    <div class="NAVBAR">
+        <div class="navbar-top">
+            <div></div>
+            <div class="navbar-top-left">
+                <div class="navbar-button" onclick="scrolltogallery()">
+                    <a> ABOUT US </a>
+                </div>
+                <div class="navbar-button" onclick="scrolltogallery()">
+                    <a> GALLERY </a>
+                </div>
+                <div class="navbar-button" onclick="scrolltotalktous()">
+                    <a> TALK TO US </a>
+                </div>
+
+            </div>
+
+            <div class="navbar-top-right">
+                <div class="threeicons">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/ELLabsjijel" target="_blank">
+                            <img src="icons/navFacebook.png">
+                        </a>
+                    </div>
+
+                    <div class="icon">
+                        <a href="https://www.instagram.com/ellabs__/" target="_blank">
+                            <img src="icons/navInstagram.png">
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="icons/navYoutube.png">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="navbar-bottom">
+
+            <div class="logo">
+                <img src="icons/Artboard 5.png">
+            </div>
+            <div class="middle-titles" onclick="scrolltoourcourses()">
+                OUR COURSES
+            </div>
+            <div class="middle-titles" onclick="scrolltocomingsoon()">
+                COMING SOON
+            </div>
+        </div>
+    </div>
+    <div class="NAVBAR2">
+        <div class="logo">
+            <img src="icons/Artboard 5.png">
+        </div>
+        <div class="navbar-list">
+            <img src="icons/navbarlist.png">
+        </div>
+    </div>
+
+    <section>
+        <div id="home" class="home-background">
+            <img src="icons/right-arrow.png" id="homeNextArrow" onclick="homebackground(1)">
+            <img src="icons/leftarrow.png" id="homePrevArrow" onclick="homebackground(0)">
+            <div class="background-text">
+                <div class="animtext" id="background-description" class="background-description">Unlock your child's
+                    potential with robotics</div>
+                <div class="animtext" id="background-title">The Futur of Robotics</div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <div class="content-holder">
+        <div class="left-content">
+            <div class="about-us">
+                <div class="about-us-title">
+                    ABOUT US
+                </div>
+                <div class="about-us-text">
+                    <p id="en">Computer Science (CS) and Information Technology (IT) is a decisive factor in business
+                        and
+                        industry , but it is also a space for creativity and self-development for all ages and
+                        profiles.
+                        we believe the best way to obtain and exploit CS and IT is through embedding it in our
+                        daily
+                        life (home, school, work ...).
+                        ELLabs (embedded learning laboratories) , research and consulting office, aims to
+                        develop
+                        and
+                        enhance CS and IT fields by creating educational curricula and professional training
+                        courses, as
+                        well as focusing on developing the technics and methodologies for integrating it in
+                        educational
+                        institutions and companies operating in the sector.<br>
+                    </p>
+                    <p id="ar">
+                        إيلابس، مكتب بحث و استشارة. يهدف إلى تطوير و ترقية مجالات علوم الحاسوب، و تقنيات
+                        المعلومات. و هذا عن طريق خلق مناهج تعليمية و دورات تدريبية إحترافية، و كذا التركيز على
+                        تطوير
+                        تقنيات إدماج و توفير هذه الأخيرة في المؤسسات التعليمية و الشركات العاملة في القطاع
+                    </p>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="contacts">
+                <div class="talk-to-us">
+                    <div id="title">TALK TO US</div>
+                    <div id="text">Let us know if you have any comments or concerns.</div>
+                </div>
+                <br>
+                <div class="contact">
+                    <img class="contact-icon" src="icons/facebook.png">
+                    <a href="https://www.facebook.com/ELLabsjijel" target="_blank">@ELLabsjijel</a>
+                </div>
+                <div class="contact">
+                    <img class="contact-icon" src="icons/instagram.png">
+                    <a href="https://www.instagram.com/ellabs__/" target="_blank">@ellabs__</a>
+                </div>
+                <div class="contact">
+                    <img class="contact-icon" src="icons/WhatsApp.png">
+                    <a href="tel:+123659743346">0659 74 33 46</a>
+                </div>
+                <div class="contact">
+                    <img class="contact-icon" src="icons/email.png">
+                    <a href="mailto:ellabsinfo@gmail.com">ellabsinfo@gmail.com</a>
+                </div>
+                <br>
+                <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.5973650993033!2d5.745788274435649!3d36.80420297224595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f25fe45c52015f%3A0x223a1d4cd98a87dd!2sEllabs!5e0!3m2!1sen!2sdz!4v1683733109798!5m2!1sen!2sdz"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="right-content">
+            <section id="section-id" class="section-class right-content">
+                <div class="gallery-album " id="album1">
+                    <div><a href=" #"> Album 1 </a></div>
+                </div>
+
+                <div class="gallery-album" id="album2">
+                    <div> <a href="#"> Album 2 </a></div>
+                </div>
+
+                <div class="gallery-album " id="album3">
+                    <div> <a href="#"> Album 3 </a></div>
+                </div>
+
+                <div class="gallery-album " id="album4">
+                    <div> <a href="#"> Album 4 </a></div>
+                </div>
+
+                <div class="gallery-album " id="album5">
+                    <div> <a href="#"> Album 5 </a></div>
+                </div>
+                <div class="gallery-album " id="album6">
+                    <div> <a href="#"> Album 6 </a></div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="our-courses-container">
+        <h1 id="our-courses-title">OUR COURSES</h1>
+        <div class="our-courses-wrapper">
+            <div class="course-card" id="Card1" onclick="card1clicked()">
+                <img src="images/Album1/images/img1.jpg" alt="Product Image">
+                <h2>LEVEL 0</h2>
+                <p id="desc">The course deepens students' understanding of robotics through applied projects and
+                    exposure to other programming languages..</p>
+                <div class="pricediv" id="level0">
+                    <p id="price">Price: 8500 DA</p>
+                </div>
+            </div>
+            <div class="course-card" id="Card2" onclick="card2clicked()">
+                <img src="images/Album1/images/img2.jpg" alt="Product Image">
+                <h2>LEVEL 1</h2>
+                <p id="desc">The course deepens students' understanding of robotics through applied projects and
+                    exposure to other programming languages..</p>
+                <div class="pricediv" id="level1">
+                    <p id="price">Price: 8500 DA</p>
+                </div>
+            </div>
+            <div class="course-card" id="Card3" onclick="card3clicked()">
+                <img src="images/Album1/images/img3.jpg" alt="Product Image">
+                <h2>LEVEL 2</h2>
+                <p id="desc">The course deepens students' understanding of robotics through applied projects and
+                    exposure to other programming languages..</p>
+                <div class="pricediv" id="level2">
+                    <p id="price">Price: 12500 DA</p>
+                </div>
+            </div>
+            <div class="course-card" id="Card4" onclick="card4clicked()">
+                <img src="images/Album1/images/img7.jpg" alt="Product Image">
+                <h2>LEVEL 3</h2>
+                <p id="desc">The course deepens students' understanding of robotics through applied projects and
+                    exposure to other programming languages..</p>
+                <div class="pricediv" id="level3">
+                    <p id="price">Price: 12500 DA</p>
+                </div>
+            </div>
+        </div>
+        <div class="course-info-container">
+            <div class="courseinfo">
+                <div class="course-pic">
+                    <img src="Gallery/images/Album1/images/img1.jpg" id="course-pic">
+                </div>
+                <div class="course-info-right">
+                    <div class="course-title"> LEVEL 0 </div>
+                    <div class="course-desc"> Level 0 is an introductory programming course that covers computers,
+                        operating systems, and programming. It is designed for beginners and schoolchildren, introducing
+                        complex terms such as algorithms and covering the basics of programming and commands. Practical
+                        examples like games and animation keep students engaged..</div>
+                    <div class="price-duration">
+                        <div class="course-duration">
+                            <img src="icons/duration.png" alt="">
+                            24h / 6 Weeks
+                        </div>
+                        <div class="course-price">
+                            <img src="icons/price.png" alt="">
+                            12500 DA
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comingsoon-container">
+        <div class="comingsoontitle">
+            <h1 id="comingsoontitle" class="animated-title"> COMING SOON!</h1>
+        </div>
+        <div class="comingsoon-wrapper">
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/Album1/images/img1.jpg" alt="Image 1">
+                </div>
+                <div class="card-content">
+                    <h2>Robotics Workshops</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur saepe, possimus distinctio
+                        eummagnam nostrum .</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/Album1/images/img2.jpg" alt="Image 2">
+                </div>
+                <div class="card-content">
+                    <h2>2D-Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur saepe, possimus distinctio
+                        eummagnam nostrum .</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/Album1/images/img3.jpg" alt="Image 3">
+                </div>
+                <div class="card-content">
+                    <h2>3D-Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur saepe, possimus distinctio
+                        eummagnam nostrum .</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <div class="footer">
+        <p>&copy; 2023 ELLabs. All rights not reserved yet.</p>
+    </div>
+
+    <script src="newJS.js"></script>
+    <script src="Gallery/gallery.js"></script>
+</body>
+
+</html>
